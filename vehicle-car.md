@@ -21,7 +21,7 @@ seatInsuranceAmount： 座位险额度
 maintainPeriod 保养周期
 driverId
 driverName
-Status：状态，1有效/0无效
+status：状态，1有效/0无效
 operationCertificate: 营运证
 drivingLicense
 otherAttachments
