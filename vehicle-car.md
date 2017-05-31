@@ -22,7 +22,7 @@ maintainPeriod 保养周期
 driverId
 driverName
 Status
-operationCertificate: 营运资质
+operationCertificate: 营运证
 drivingLicense
 otherAttachments
 
