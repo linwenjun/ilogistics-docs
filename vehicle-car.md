@@ -27,6 +27,9 @@ drivingLicense
 otherAttachments
 
 
+# 查询中的年限
+licensedYearUpperBound
+licensedYearLowerBound
 ```
 
 
@@ -67,4 +70,7 @@ GET vehicle/cars/ratings
 # 获取 <技术等级> 列表
 relation vehicle-search-car-tech-levels
 GET vehicle/cars/tech-levels
+
+# 获取 <运营资质> 列表
+relation vehicle-search-car-operation-qualification
 ```
