@@ -13,7 +13,7 @@ energyType: String
 loadNumber: Number
 licensedDate: Date
 licensedDateString:
-reting
+rating
 techLevel
 hasCamera
 hasGps
