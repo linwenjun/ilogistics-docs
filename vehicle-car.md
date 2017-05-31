@@ -1,4 +1,37 @@
-### 车辆相关
+### 车辆属性对象
+
+```json
+
+vendorId: Number
+vendorName: String
+cityId: Number
+cityName: String
+licensePlate: String
+operationQualification: String //运营资质
+brand: String
+energyType: String
+loadNumber: Number
+licensedDate: Date
+licensedDateString:
+reting
+techLevel
+hasCamera
+hasGps
+seatInsuranceAmount： 座位险额度
+maintainPeriod 保养周期
+driverId
+driverName
+Status
+operationCertificate
+drivingLicense
+otherAttachments
+
+
+```
+
+
+
+### 车辆相关接口和relation
 
 ```
 # 获取车辆列表
@@ -21,7 +54,7 @@ PUT vehicle/cars
 relation vehicle-delete-car
 DELETE vehicle/cars{id}
 ```
-### 车辆参数相关
+### 车辆参数相关接口和relation
 ```
 # 获取 <类型> 列表
 relation vehicle-get-car-energy-types
@@ -35,4 +68,3 @@ GET vehicle/cars/ratings
 relation vehicle-search-car-tech-levels
 GET vehicle/cars/tech-levels
 ```
-
