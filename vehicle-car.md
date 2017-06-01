@@ -12,7 +12,6 @@ brand: String
 energyType: String
 loadNumber: Number
 licensedDate: Date
-licensedDateString:
 rating
 techLevel
 hasCamera
