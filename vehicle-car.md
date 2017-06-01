@@ -72,4 +72,9 @@ GET vehicle/cars/tech-levels
 
 # 获取 <运营资质> 列表
 relation vehicle-search-car-operation-qualification
+GET vehicle/cars/operation-qualifications
+
+# 获取 <司机列表> 
+relation vehicle-search-driver-by-vendor-id
+GET vehicle/vendor/{id}/drivers
 ```
