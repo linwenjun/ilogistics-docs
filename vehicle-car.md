@@ -29,6 +29,10 @@ otherAttachments
 # 查询中的年限
 licensedYearUpperBound
 licensedYearLowerBound
+
+# 查询类型
+loadNumberUpperBound
+loadNumberLowerBound
 ```
 
 
