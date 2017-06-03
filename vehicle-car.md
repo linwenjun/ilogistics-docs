@@ -75,7 +75,7 @@ relation vehicle-search-car-tech-levels
 GET vehicle/cars/tech-levels
 
 # 获取 <运营资质> 列表
-relation vehicle-search-car-operation-qualification
+relation vehicle-search-car-operation-qualifications
 GET vehicle/cars/operation-qualifications
 
 # 获取 <司机列表> 
