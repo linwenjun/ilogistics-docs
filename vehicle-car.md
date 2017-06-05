@@ -67,18 +67,18 @@ relation vehicle-get-car-energy-types
 GET vehicle/cars/energy-types
 
 # 获取 <等级评定> 列表
-relation vehicle-search-car-ratings
+relation vehicle-get-car-ratings
 GET vehicle/cars/ratings
 
 # 获取 <技术等级> 列表
-relation vehicle-search-car-tech-levels
+relation vehicle-get-car-tech-levels
 GET vehicle/cars/tech-levels
 
 # 获取 <运营资质> 列表
-relation vehicle-search-car-operation-qualifications
+relation vehicle-get-car-operation-qualifications
 GET vehicle/cars/operation-qualifications
 
 # 获取 <司机列表> 
-relation vehicle-search-driver-by-vendor-id
+relation vehicle-get-driver-by-vendor-id
 GET vehicle/vendor/{id}/drivers
 ```
